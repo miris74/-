@@ -9,12 +9,14 @@ namespace reverse
     internal class PiecePosition
     {
         /// <summary>
-        /// コマのX座標
+        /// コマのX座標(行)
+        /// ０から始まる
         /// </summary>
         public int X;
 
         /// <summary>
-        /// コマのY座標
+        /// コマのY座標(列)
+        /// ０から始まる
         /// </summary>
         public int Y;
     }
